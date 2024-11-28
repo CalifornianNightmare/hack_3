@@ -1,0 +1,15 @@
+OPENSEARCH_HOST = "opensearch-node1"
+OPENSEARCH_PORT = 9200
+OPENSEARCH_USE_SSL = False
+
+EMBEDDINGS_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+
+LLM_MODEL = "llama3"
+LLM_BASE_URL = "http://llama:11434"
+
+TEXT_SPLIT_CHUNK_SIZE = 1000
+TEXT_SPLIT_CHUNK_OVERLAP = 200
+
+DOCUMENT_FILE_PATH = "data/amogus.docx"
+
+PROMPT_FILE_PATH = "prompt.txt"
